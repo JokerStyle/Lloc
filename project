@@ -1,0 +1,25 @@
+#include <iostream>
+#include <cstdio>
+#include <cstdlib>
+#include <fstream>
+#include <vector>
+#include <string>
+using namespace std;
+
+int main(int argc, char* argv[])
+{
+    fstream fin("convert.cpp");
+    if (fin)
+    {
+        while (getline(fin, str)!=EOF)
+        {
+
+        }
+
+    }
+    else
+        cout << "Error!" << endl;
+
+    system("pause");
+    return 0;
+}
